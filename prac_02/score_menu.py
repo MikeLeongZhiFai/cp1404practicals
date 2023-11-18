@@ -44,7 +44,7 @@ def determine_grade(score):
         return "Bad"
 
 def show_stars(score):
-    """Generates a string of * based on the input score"""
+    """Generates a string of */ asterisk based on the input score"""
     stars="*" * score
     return stars
 
